@@ -281,11 +281,45 @@ header{
 
 /* BENEFITS */
 .benefits{
-    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.benefits-title{
+    width: 100%;
+    margin: 50px 30px;
+    font-size: 35px;
+    color: white;
 }
 
 .content-benefits{
-    height: 450px;
+    padding: 30px;
+}
+
+.benefits-number{
+    font-size: 45px;
+    color: #9792e4;
+}
+
+.benefits-subtitle{
+    font-size: 25px;
+    color: #9792e4;
+    margin: 30px 0;
+}
+
+.benefits-description{
+    color: #647a8d;
+    font-size: 16px;
+}
+
+.benefits-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #9792e4;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-weight: bolder;
+    margin-top: 30px;
 }
 
 /* ABOUT US */
