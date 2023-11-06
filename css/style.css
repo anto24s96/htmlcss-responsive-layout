@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* COMMON */
 
 .bg-blue{
-    background-color: rgb(0, 166, 255);
+    background-color: #0084fd;
 }
 
 .bg-purple{
@@ -26,6 +27,9 @@
     background-color: rgb(27, 27, 27);
 }
 
+.bg-sky{
+    background-color: #b5ddff;
+}
 .container{
     max-width: 100%;
     margin: 0 auto;
@@ -87,11 +91,35 @@
     border-radius: 50px;
 }
 
+.line-height{
+    line-height: 1.7;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.icon{
+    font-size: 80px;
+    color: #0084fd;
+    margin-bottom: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
 /* HEADER */
 header{
     width: 100%;
-    height: 75px;
     margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+#hamburger{
+    font-size: 25px;
+    color: white;
 }
 
 /* JUMBOTRON */
@@ -99,12 +127,45 @@ header{
     padding-bottom: 40px;
 }
 
-.content-jumbotron-big{
-    height: 600px;
+.jumbo-title{
+    font-size: 23px;
+    color: #0084fd;
+    font-weight: bolder;
+}
+
+.jumbo-text{
+    margin-top: 30px;
+    font-weight: bolder;
+    color: #647a8d;
+}
+
+.apple-button{
+    display: inline-block;
+    color: white;
+    background-color: #0084fd;
+    margin: 30px 0;
+    font-weight: bolder;
+    padding: 10px 45px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.get-demo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.phone-container{
+    width: 100%;
+    justify-content: center;
+}
+
+.phone-container img{
+    width: 90%;
 }
 
 .content-jumbotron-small{
-    height: 300px;
+    padding: 30px;
 }
 
 /* STRATEGY */
