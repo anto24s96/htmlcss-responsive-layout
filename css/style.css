@@ -49,6 +49,12 @@
     margin-bottom: 30px;
 }
 
+.col-35{
+    width: 100%;
+    margin: 0 30px;
+    margin-bottom: 30px;
+}
+
 .col-50{
     width: 100%;
     margin: 0 30px;
@@ -72,6 +78,15 @@
     margin: 0 30px;
     margin-bottom: 30px;
 }
+
+.radius-20{
+    border-radius: 20px;
+}
+
+.radius-50{
+    border-radius: 50px;
+}
+
 /* HEADER */
 header{
     width: 100%;
@@ -80,12 +95,16 @@ header{
 }
 
 /* JUMBOTRON */
+.jumbotron{
+    padding-bottom: 40px;
+}
+
 .content-jumbotron-big{
-    height: 700px;
+    height: 600px;
 }
 
 .content-jumbotron-small{
-    height: 400px;
+    height: 300px;
 }
 
 /* STRATEGY */
@@ -127,4 +146,58 @@ header{
 /* FOOTER */
 footer{
     height: 800px;
+}
+
+/* //////////////////
+RESPONSIVE
+////////////////// */
+
+@media screen and (min-width: 768px){
+    .container{
+        min-width: 768px;
+    }
+
+    .col-33{
+        margin: 15px 15px;
+        width: calc(100% / 3 - 30px);
+    }
+
+    .col-66{
+        margin: 15px 15px;
+        width: calc(100% / 3 * 2 - 30px);
+    }
+
+    .col-35{
+        margin: 0 15px;
+        width: calc(100% / 2 - 30px);
+        margin-bottom: 30px;
+    }
+
+    .col-70{
+        margin: 15px 15px;
+        width: calc(100% / 2 - 30px);
+    }
+
+    .col-30{
+        margin: 15px 15px;
+        width: calc(100% / 2 - 30px);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .col-50{
+        margin: 15px 15px;
+        width: calc(100% / 2 - 30px);
+        margin-bottom: 30px;
+    }
+
+    .col-35{
+        margin: 0 15px;
+        width: calc(100% / 3 - 30px);
+        margin-bottom: 30px;
+    }
 }
