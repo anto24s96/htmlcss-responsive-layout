@@ -12,7 +12,7 @@
 }
 
 .bg-purple{
-    background-color: rgb(175, 111, 234);
+    background-color: #9792e4
 }
 
 .bg-violet{
@@ -173,10 +173,48 @@ header{
     padding-top: 40px;
 }
 
-.content-strategy{
-    height: 550px;
+.content-strategy-top img{
+    width: 100%;
 }
 
+.planning-title{
+    color: white;
+    font-size: 30px;
+    margin: 50px 0;
+}
+
+.content-strategy-top :last-child{
+    color: white;
+}
+
+.content-strategy-bot{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.content-strategy-bot img{
+    width: 100%;
+}
+
+#planning-subtitle{
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.fa-arrow-down-long{
+    font-size: 20px;
+    background-color: #9792e4;
+    align-self: center;
+    padding: 16px 20px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+
+#text-strategy-bot{
+    font-size: 18px;
+    font-style: italic;
+}
 /* TESTIMONIALS */
 .testimonials{
     padding-top: 40px;
